@@ -170,7 +170,7 @@ final class BlobConstants {
      * The maximum size, in bytes, of a blob before it must be separated into blocks
      */
     // Note if this is updated then Constants.MAX_MARK_LENGTH needs to be as well.
-    public static final int MAX_SINGLE_UPLOAD_BLOB_SIZE_IN_BYTES = 64 * Constants.MB;
+    public static final int MAX_SINGLE_UPLOAD_BLOB_SIZE_IN_BYTES = 4 * Constants.MB;
 
     /**
      * Specifies the page blob type.
