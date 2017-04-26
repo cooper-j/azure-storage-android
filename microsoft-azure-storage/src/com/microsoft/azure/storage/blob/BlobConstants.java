@@ -154,7 +154,7 @@ final class BlobConstants {
     /**
      * The default maximum size, in bytes, of a blob before it must be separated into blocks.
      */
-    public static final int DEFAULT_SINGLE_BLOB_PUT_THRESHOLD_IN_BYTES = 32 * Constants.MB;
+    public static final int DEFAULT_SINGLE_BLOB_PUT_THRESHOLD_IN_BYTES = 4 * Constants.MB;
 
     /**
      * Specifies snapshots are to be included.
